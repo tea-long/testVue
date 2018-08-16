@@ -3,7 +3,7 @@
 <!-- <p v-html="hello"></p> -->
 <!-- <p v-text="hello"></p> -->
 <!-- {{num+1}}<br> -->
-<!-- {{ status ? 'sucess' : 'fail'}}<br> -->
+{{ status ? 'sucess' : 'fail'}}<br>
 <!-- <componentFirst v-for="(value,key) in objList " :key="key"></componentFirst> -->
 <!-- <componentPublic></componentPublic> -->
 <ul>
@@ -31,7 +31,7 @@ export default {
             return {
               // hello: '<p>woen</p>',
               // num: 1,
-              // status: false,
+              status: false,
                link:'http://www.baidu.com',
                togo:'togo',
                classStr:'green',

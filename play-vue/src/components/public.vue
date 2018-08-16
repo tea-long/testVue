@@ -186,7 +186,7 @@ export default {
         { url: require("./../assets/carouse1.png") },
         { url: require("./../assets/carouse2.png") },
         { url: require("./../assets/1.jpg") },
-        { url: require("./../assets/2.jpg") },
+ 
 
       ]
             };
